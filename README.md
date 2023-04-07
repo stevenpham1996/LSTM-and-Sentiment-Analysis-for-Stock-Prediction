@@ -15,5 +15,5 @@ Predict the Indian Stock Exchange Sensitive Index - `SENSEX` from historical sto
 ## Result:
 The `LSTM` model was able to generalize better in testing data than the 'LightGBM' model with significant lower Root Mean Square Error `RMSE`.  
 
-### References:
+## References:
 - [Stock Price Prediction using Sentiment Analysis and Deep Learning for Indian Markets](https://arxiv.org/abs/2204.05783) 
