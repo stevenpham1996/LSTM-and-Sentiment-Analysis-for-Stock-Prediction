@@ -8,12 +8,12 @@ Predict the Indian Stock Exchange Sensitive Index - `SENSEX` from historical sto
 -[News headlines](https://bit.ly/36fFPI6)
 
 ## Methodology:
-- Transform Daily Close prices into logarithmic returns for better statistical modelling.
+- Transform Daily Close prices into logarithmic returns to attain better statistical properties, then used along side with Yesterday Close prices as numerical feature inputs.
 - Utilize the Huggingface pretrained RoBERTa `cardiffnlp/twitter-roberta-base-sentiment-latest` model for Sentiment Analysis on news headlines.
-- 2 machine learning models `LSTM` and `LightGBM` are used and compared.  
+- 2 machine learning models `LSTM` and `LightGBM` are used and contrasted.  
 
 ## Result:
-The `LSTM` model was able to generalize better in testing data than the 'LightGBM' model with significant lower Root Mean Square Error `RMSE`.  
+The `LSTM` model was able to generalize better in testing data than the 'LightGBM' model with significant lower `RMSE` (Root Mean Square Error).  
 
 ## References:
 - [Stock Price Prediction using Sentiment Analysis and Deep Learning for Indian Markets](https://arxiv.org/abs/2204.05783) 
