@@ -1,5 +1,5 @@
 # Numerical-and-Textual-Analysis-for-Stock-Prediction
-This is one of the project tasks from the @GRIP Internship Program of **The Spark Foundation**
+This is one of the project tasks from the @GRIP Internship Program of **[The Spark Foundation](https://in.linkedin.com/company/the-sparks-foundation)**
 
 ## Objective:
 Predict the Indian Stock Exchange Sensitive Index - `SENSEX` from historical stock price and news headlines data from 2015/01/01-31/03/2022.  
