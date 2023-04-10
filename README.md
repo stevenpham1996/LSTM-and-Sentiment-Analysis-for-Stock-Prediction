@@ -13,7 +13,7 @@ Predict the Indian Stock Exchange Sensitive Index - `SENSEX` from historical sto
 - The `LSTM` was trained on numerical data only and used as a Baseline to contrast with the `LightGBM` which was trained on both numerical and textual analyzed data.
 
 ## Result:
-- The `LightGBM Regressor` model as expected was able to fit and generalize better than the `LSTM` model with significant lower `RMSE` (Root Mean Square Error).  
+- The `LightGBM Regressor` model as expected was able to fit and generalize better than the `LSTM` model with significantly lower `RMSE` (Root Mean Square Error).  
 - The `LightGBM Classifier` was able to correctly predict the next day stock market's general movement (Buliish or Bearish) by **56.10%**.
 
 ## References:
